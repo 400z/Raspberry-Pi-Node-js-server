@@ -1,0 +1,12 @@
+sudo apt-get update
+sudo apt-get upgrade
+uname -m
+wget https://nodejs.org/dist/v12.18.4/node-v12.18.4-linux-armv7l.tar.xz
+tar -xf node-v12.18.4-linux-armv7l.tar.xz
+cd node-v12.18.4-linux-armv7l/
+sudo cp -R * /usr/local/
+
+node -v
+npm -v
+
+npm install onoff
